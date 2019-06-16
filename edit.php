@@ -34,7 +34,7 @@ while ($row=mysqli_fetch_assoc($query))
 <form method='post' action='edit.php?edit_form=<?php echo $edit_id; ?>'>
 <table width='500' border='3' align='center'>
       	<tr>
-			<th bgcolor='yellow' colspan='5'>Updating Form</h>
+			<th bgcolor='yellow' colspan='5'>Updating Form</th>
 		</tr>
   		<tr >
 			<td align='right'>Student's Name:</td>
